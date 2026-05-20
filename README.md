@@ -1,102 +1,32 @@
-<a href="https://trendshift.io/repositories/151" target="_blank"><img src="https://trendshift.io/api/badge/repositories/151" alt="jaygajera17%2FE-commerce-project-springBoot | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+## E-Commerce Backend (Spring Boot)
 
-# E-commerce Spring Boot (JSP + Hibernate)
+This is a simple Java-based e-commerce backend application built with Spring Boot, JSP, Spring Security, and Hibernate. It supports admin and user workflows, including product management, user registration, login, and shopping cart features.
 
-Production-oriented Java e-commerce web application built with Spring Boot, JSP, Spring Security, and Hibernate SessionFactory.
+### Features
+- Admin and user roles
+- Product, category, and user management
+- Secure authentication and authorization
+- MySQL database integration
 
-This project follows a layered MVC architecture and supports role-based access for admin and customer workflows.
+### Getting Started
+1. Clone the repository
+2. Configure your database settings in `src/main/resources/application.properties`
+3. Build and run the project using Maven:
+   ```bash
+   mvn clean package
+   mvn spring-boot:run
+   ```
+4. Access the app at [http://localhost:8080/](http://localhost:8080/)
 
-<br/><br/>
+---
 
-<h1>🛒 E-Commerce Spring Boot</h1>
- 
-<p>A production-oriented Java e-commerce web application built with Spring Boot, JSP, Spring Security, and Hibernate — featuring role-based access for admin and customer workflows.</p>
-<br/>
-<!-- Badges Row 1: Community -->
-<p>
-  <a href="https://github.com/jaygajera17/E-commerce-project-springBoot/stargazers">
-    <img src="https://img.shields.io/github/stars/jaygajera17/E-commerce-project-springBoot?style=flat-square&logo=github&labelColor=1a1a2e&color=f5a623&label=Stars" alt="Stars"/>
-  </a>
-  <a href="https://github.com/jaygajera17/E-commerce-project-springBoot/network/members">
-    <img src="https://img.shields.io/github/forks/jaygajera17/E-commerce-project-springBoot?style=flat-square&logo=github&labelColor=1a1a2e&color=4a90d9&label=Forks" alt="Forks"/>
-  </a>
-  <a href="https://github.com/jaygajera17/E-commerce-project-springBoot/issues">
-    <img src="https://img.shields.io/github/issues/jaygajera17/E-commerce-project-springBoot?style=flat-square&logo=github&labelColor=1a1a2e&color=e05c5c&label=Issues" alt="Issues"/>
-  </a>
-  <a href="https://github.com/jaygajera17/E-commerce-project-springBoot/pulls">
-    <img src="https://img.shields.io/github/issues-pr/jaygajera17/E-commerce-project-springBoot?style=flat-square&logo=github&labelColor=1a1a2e&color=8e44ad&label=Pull+Requests" alt="Pull Requests"/>
-  </a>
-  <a href="https://github.com/jaygajera17/E-commerce-project-springBoot/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/jaygajera17/E-commerce-project-springBoot?style=flat-square&logo=github&labelColor=1a1a2e&color=27ae60&label=Contributors" alt="Contributors"/>
-  </a>
-</p>
+#### Author & Contributor
 
-<br/>
+- [NAYAN KUMAR DAS](https://github.com/nayan-code)
 
-## Highlights
+---
 
-- Server-rendered e-commerce app (JSP views)
-- Spring Security authentication and role-based authorization
-- Custom Hibernate SessionFactory configuration (non-Spring-Data JPA runtime)
-- MySQL-backed persistence with DAO and service layers
-- Admin modules for products, categories, and customer listing
-- User modules for registration, login, profile management, and product browsing
-- Jenkins pipeline file included for CI/CD bootstrap
-
-## Tech Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Java-11-ED8B00?style=flat-square&logo=openjdk&logoColor=white&labelColor=1a1a2e" alt="Java 11"/>
-  <img src="https://img.shields.io/badge/Spring%20Boot-2.6.4-6DB33F?style=flat-square&logo=springboot&logoColor=white&labelColor=1a1a2e" alt="Spring Boot"/>
-  <img src="https://img.shields.io/badge/Spring%20Security-5.x-6DB33F?style=flat-square&logo=springsecurity&logoColor=white&labelColor=1a1a2e" alt="Spring Security"/>
-  <img src="https://img.shields.io/badge/Hibernate-ORM-59666C?style=flat-square&logo=hibernate&logoColor=white&labelColor=1a1a2e" alt="Hibernate"/>
-  <img src="https://img.shields.io/badge/MySQL-8.x-4479A1?style=flat-square&logo=mysql&logoColor=white&labelColor=1a1a2e" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Maven-Build-C71A36?style=flat-square&logo=apachemaven&logoColor=white&labelColor=1a1a2e" alt="Maven"/>
-</p>
-
-- Java 11
-- Spring Boot 2.6.4
-- Spring MVC
-- Spring Security
-- Hibernate ORM (via `LocalSessionFactoryBean`)
-- JSP + JSTL + Tomcat Jasper
-- MySQL 8 connector
-- Maven
-
-## Project Structure
-
-```text
-src/main/java/com/jtspringproject/JtSpringProject/
-  configuration/     # Security config
-  controller/        # MVC controllers
-  dao/               # Data access layer
-  models/            # Entities
-  services/          # Business layer
-  repository/        # Spring Data repository (partial)
-  HibernateConfiguration.java
-  JtSpringProjectApplication.java
-src/main/resources/
-  application.properties
-src/main/webapp/views/
-  *.jsp
-basedata.sql
-pom.xml
-```
-
-## Getting Started
-
-### Prerequisites
-
-- Java 11+
-- Maven 3.8+
-- MySQL or MariaDB
-
-### 1) Clone and move into project
-
-```bash
-git clone https://github.com/jaygajera17/E-commerce-project-springBoot.git
-cd E-commerce-project-springBoot
-```
+© 2026 Nayan
 
 ### 2) Configure database
 
